@@ -15,7 +15,7 @@ function Header() {
             <a href="http://">
               Meu Perfil
             </a>
-        </nav>
+          </nav>
         </div>
       </header>
     </>

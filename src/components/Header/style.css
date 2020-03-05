@@ -4,11 +4,13 @@
 }
 
 header {
+  width: 100%;
   background: #4A90E2;
   height: 64px;
-  position: fixed top;
+  position:fixed;
   display: flex;
   align-items: center;
+  z-index: 1;
 }
 
 nav {
@@ -18,15 +20,15 @@ nav {
   padding: 0 42px;
 }
 
-div {
+header > div {
   width: 100%;
 }
 
- a {
-   text-decoration: none;
-   font-size: 15px;
-   font-weight: bold;
-   color: #fff;
-   font-family: Helvetica, sans-serif;
- }
+a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+}
 
